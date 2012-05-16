@@ -1,3 +1,13 @@
+#JGM fork
+
+Added support for hogan.js (see https://github.com/danshultz/hem)
+
+To install: make sure you've removed any existing versions (look in /usr/local/lib/node_modules and/or ~/node_modules), clone this repo, then run the following from the newly created hem dir
+
+    npm link 
+
+--------------------------------------------------------------------------------------------------------
+
 #Introduction
 
 Hem is a project for compiling CommonJS modules when building JavaScript web applications. You can think of Hem as [Bundler](http://gembundler.com/) for Node, or [Stitch](https://github.com/sstephenson/stitch) on steroids. 
